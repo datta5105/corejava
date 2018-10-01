@@ -12,6 +12,6 @@ Constructor co[]= cls.getDeclaredConstructors();
 for(Constructor c:co) {
 System.out.println(c);
 	}
-Field[] f=cls.getDeclaredFields();
+java.lang.reflect.Field[] f=cls.getDeclaredFields();
 
 }}
